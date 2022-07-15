@@ -1,0 +1,53 @@
+/* Global */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* Navigation Bar */
+#nav-main {
+    background-color: rgb(14, 72, 122);
+    padding: 5px 0px 5px 0px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-name {
+    font-size: 20pt;
+}
+
+#nav-list {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.nav-links {
+    padding: 10px;
+}
+/* About Me */
+#about-main {
+    height: 200px;
+    background-color: rgb(224, 224, 223);
+}
+
+/* Technologies */
+#tech-main {
+    height: 200px;
+    background-color: aliceblue;
+}
+
+/* Projects */
+#project-main {
+    height: 200px;
+    background-color: rgb(224, 224, 223);
+}
+
+/* Contact Me */
+#contact-main {
+    height: 200px;
+    background-color: aliceblue;
+}
