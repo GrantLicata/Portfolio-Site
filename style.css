@@ -2,12 +2,34 @@
 * {
     padding: 0px;
     margin: 0px;
+    background-color: #355764;
+    color: white;
+    font-family: Sora;
+    /* box-sizing: border-box;
+    border: 1px solid rgb(83, 17, 17); */
 }
 
+.container {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+button {
+    background: none;
+    border: none;
+}
+/* Title */
+
+.title {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
 
 /* Navigation Bar */
 #nav-main {
-    background-color: rgb(14, 72, 122);
+    background-color: #5A8F7B;
     padding: 5px 0px 5px 0px;
     color: white;
     display: flex;
@@ -15,19 +37,25 @@
     align-items: center;
 }
 
-#nav-name {
-    font-size: 20pt;
+#logo-img {
+    height: 30px;
+    width: 30px;
+    background: none;
 }
 
 #nav-list {
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    background: none;
 }
 
 .nav-links {
     padding: 10px;
+    background: none;
 }
+
+
 /* About Me */
 #about-main {
     height: 200px;
@@ -51,3 +79,10 @@
     height: 200px;
     background-color: aliceblue;
 }
+
+/* Fonts */
+
+@font-face {
+    font-family: "Sora";
+    src: url("./Sora/Sora-VariableFont_wght.ttf") format("truetype");
+  }
